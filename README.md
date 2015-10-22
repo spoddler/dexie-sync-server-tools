@@ -1,5 +1,5 @@
 ﻿# Dexie Sync-server Tools
-A library for creating Offline-First applications.
+A toolset for creating Offline-First applications.
 
 WARNING: BETA BETA, very much beta. Used internally at Spoddler but utilizing a public repo just for fun.
 
