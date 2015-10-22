@@ -12,7 +12,7 @@ Let your app run in the browser and not require them to be online. Accomplished 
 
 ## Features
 * [ISyncProtocol](https://github.com/dfahlander/Dexie.js/wiki/Dexie.Syncable.ISyncProtocol) instance to use with [Dexie.Syncable.js](https://github.com/dfahlander/Dexie.js/wiki/Dexie.Syncable.js)
-* npm package to use from nodejs after having authenticated the sync request. Send client changelog and get server changelog back to user.
+* Typescript lib to call from you node app after having authenticated the sync request. Send client changelog and get server changelog back to user.
 
 ## It's required by you to:
 * Setup your node/express server
@@ -21,9 +21,10 @@ Let your app run in the browser and not require them to be online. Accomplished 
 * Access Control definitions: For each table, you define a property 
  
 ## Compared to Meteor
-* Embraces relational model
+* This is just a toolset, not a full stack platform.
+* Embraces a relational model and SQL at backend.
 * This is just a library to use from your nodejs based server application
-* You authenticate your users in your own fashion. Dexres just needs a user-ID string.
+* You authenticate your users in your own fashion. The lib just needs a user-ID string.
 * You define how access is controlled for your data.
 
 ## Compared to Couch/PouchDB
